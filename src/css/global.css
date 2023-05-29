@@ -91,3 +91,11 @@ html {
 iframe {
     border-radius: 10px;
 }
+
+.footer {
+    margin: auto;
+}
+
+.footer img {
+    width: 500px;
+}

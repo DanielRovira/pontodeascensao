@@ -21,6 +21,8 @@ html {
     font-family: lobster,cursive;
     font-weight: 500;
     margin: 40px 0 30px 0;
+    /* white-space: nowrap; */
+    text-align: center;
 }
 
 .header h1 {
@@ -98,4 +100,35 @@ iframe {
 
 .footer img {
     width: 500px;
+}
+
+@media (max-width: 650px) {
+    .header h1, h2 {
+        margin: 30px 0 20px 0;
+    }
+    
+    .header h1 {
+        font-size: 55px;
+    }
+    
+    .header h2 {
+        font-size: 35px;
+    }
+
+    .photo img {
+        max-width: 90vw;
+    }
+
+    .photo p {
+        font-size: 5vw;
+    }
+    
+    .footer img {
+        width: 90vw;
+    }
+
+    iframe {
+        width: 100vw;
+        height: 56vw;
+    }
 }
